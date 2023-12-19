@@ -54,7 +54,7 @@ import { NavLink,useLocation } from 'react-router-dom';
 
 const App = () => {
   const location = useLocation();
-  console.log("hii");
+  
 
   const renderPage = () => {
     switch (location.pathname) {
@@ -92,9 +92,9 @@ const App = () => {
           All rights reserved
         </Typography.Title>
         <Space>
-        <NavLink to='/' exact activeClassName="active-link">Home</NavLink>
-   <NavLink to='/exchanges' activeClassName="active-link">Exchanges</NavLink>
-   <NavLink to='/news' activeClassName="active-link">News</NavLink>
+        <NavLink to='/' >Home</NavLink>
+   <NavLink to='/exchanges' >Exchanges</NavLink>
+   <NavLink to='/news' >News</NavLink>
         </Space>
       </div>
       </div>

@@ -24,13 +24,13 @@ const Navbar = () => {
         <Menu.Item key="2" icon={<FundOutlined/>}>
           <Link to="/cryptocurrencies">Cryptocurrencies</Link>
         </Menu.Item>
-        <Menu.Item key="2" icon={<FundOutlined/>}>
+        <Menu.Item key="3" icon={<FundOutlined/>}>
           <Link to="/cryptocurrencies">Cryptocurrencies</Link>
         </Menu.Item>
-        <Menu.Item key="3" icon={<MoneyCollectOutlined/>}>
+        <Menu.Item key="4" icon={<MoneyCollectOutlined/>}>
           <Link to="/exchanges">Exchanges</Link>
         </Menu.Item>
-        <Menu.Item key="4" icon={<BulbOutlined/>}>
+        <Menu.Item key="5" icon={<BulbOutlined/>}>
           <Link to="/news">News</Link>
         </Menu.Item>
       </Menu>
